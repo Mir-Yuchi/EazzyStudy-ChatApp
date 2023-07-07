@@ -74,7 +74,7 @@ def home(request):
 def room(request, pk):
     area = Room.objects.get(id=pk)
     room_messages = area.message_set.all().order_by('-created')
-
+    participants = area.participants.all()
     if request.method == 'POST':
         message = Message.objects.create(
             user=request.user,
@@ -83,7 +83,7 @@ def room(request, pk):
         )
         return redirect('room', pk=area.id)
 
-    context = {'room': area, 'room_messages': room_messages}
+    context = {'room': area, 'room_messages': room_messages, 'participants': participants}
     return render(request, 'base/room.html', context)
 
 
