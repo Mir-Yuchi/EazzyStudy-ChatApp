@@ -1,5 +1,5 @@
 <div align="center">
-<img width="30%" src="https://github.com/Mir-Yuchi/EazzyStudy-ChatApp/assets/120498914/43540baf-231e-48ae-a274-a5aa4875d509">
+<img width="30%" src="https://github.com/Mir-Yuchi/EazzyStudy-ChatApp/assets/120498914/e3cb4882-70dc-49ab-9bbe-5af2d342cbc1">
 
 # EazzyStudy
 </div>
@@ -60,14 +60,14 @@ python manage.py runserver
 <p align="center">
   Feed Home
 </p>
-<img src="https://github.com/Mir-Yuchi/EazzyStudy-ChatApp/assets/120498914/6d4b3169-6ff3-45d9-af5a-9567957485d2">
+<img src="https://github.com/Mir-Yuchi/EazzyStudy-ChatApp/assets/120498914/d97b6b1f-a552-4f7c-9cb8-568b01f0f948">
 </td> 
 <td width="50%">
 <br>
 <p align="center">
   Room Conversation Preview
 </p>
-<img src="https://github.com/Mir-Yuchi/EazzyStudy-ChatApp/assets/120498914/a04e35ea-fa4d-4f63-9807-ad526e0b48c5">  
+<img src="https://github.com/Mir-Yuchi/EazzyStudy-ChatApp/assets/120498914/8ca99174-9669-45f5-94f7-8a66f404d5e0">  
 </td>
 </table>
 
