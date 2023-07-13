@@ -22,8 +22,7 @@ cd EazzyStudy-ChatApp
 ```bash
 # Let's install virtualenv first
 pip install virtualenv
-OR
-python -m pip install virtualenv
+
 
 # Then we create our virtual environment
 virtualenv envname
