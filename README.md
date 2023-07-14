@@ -2,23 +2,27 @@
 <img width="30%" src="https://github.com/Mir-Yuchi/EazzyStudy-ChatApp/assets/120498914/e3cb4882-70dc-49ab-9bbe-5af2d342cbc1">
 
 # EazzyStudy
+
 </div>
 
 ### Cloning the repository
 
 --> Clone the repository using the command below :
+
 ```bash
 git clone https://github.com/Mir-Yuchi/EazzyStudy-ChatApp.git
 
 ```
 
---> Move into the directory where we have the project files : 
+--> Move into the directory where we have the project files :
+
 ```bash
 cd EazzyStudy-ChatApp
 
 ```
 
 --> Create a virtual environment :
+
 ```bash
 # Let's install virtualenv first
 pip install virtualenv
@@ -32,6 +36,7 @@ virtualenv envname
 --> Activate it `envname\scripts\activatee` or `source envname\scripts\activate`
 
 --> Install the requirements :
+
 ```bash
 pip install -r requirements.txt
 
@@ -39,9 +44,18 @@ pip install -r requirements.txt
 
 #
 
+### Migrate
+
+--> To migrate the database, we use :
+
+```bash
+python manage.py migrate
+```
+
 ### Running the App
 
 --> To run the App, we use :
+
 ```bash
 python manage.py runserver
 
