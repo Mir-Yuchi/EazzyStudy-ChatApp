@@ -25,15 +25,11 @@ cd EazzyStudy-ChatApp
 
 ```bash
 # Let's install virtualenv first
-pip install virtualenv
-
-
-# Then we create our virtual environment
-virtualenv envname
+python -m venv venv
 
 ```
 
---> Activate it `envname\scripts\activatee` or `source envname\scripts\activate`
+--> Activate it `venv\scripts\activatee` or `source venv\scripts\activate`
 
 --> Install the requirements :
 
