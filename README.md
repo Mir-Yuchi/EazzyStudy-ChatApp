@@ -11,22 +11,18 @@
 
 ```bash
 git clone https://github.com/Mir-Yuchi/EazzyStudy-ChatApp.git
-
 ```
 
 --> Move into the directory where we have the project files :
 
 ```bash
 cd EazzyStudy-ChatApp
-
 ```
 
 --> Create a virtual environment :
 
 ```bash
-# Let's install virtualenv first
 python -m venv venv
-
 ```
 
 --> Activate it `venv\scripts\activatee` or `source venv\scripts\activate`
@@ -35,7 +31,6 @@ python -m venv venv
 
 ```bash
 pip install -r requirements.txt
-
 ```
 
 #
@@ -48,13 +43,20 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
+### Create an admin
+
+--> To create an admin we use:
+
+```bash
+python manage.py createsuperuser
+```
+
 ### Running the App
 
 --> To run the App, we use :
 
 ```bash
 python manage.py runserver
-
 ```
 
 > ⚠ Then, the development server will be started at http://127.0.0.1:8000/
